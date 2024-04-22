@@ -17,7 +17,7 @@ namespace BlinkinYMM4Plugin.SampleD2DEffect
     /// 映像エフェクト
     /// 映像エフェクトには必ず[VideoEffect]属性を設定してください。
     /// </summary>
-    [VideoEffect("点滅しながら登場退場", new[] { "登場退場" }, new string[] { })]
+    [VideoEffect("点滅しながら登場退場", new[] { "登場退場" }, new string[] { },IsAviUtlSupported =false)]
     internal class SampleD2DVideoEffect : VideoEffectBase
     {
         /// <summary>
